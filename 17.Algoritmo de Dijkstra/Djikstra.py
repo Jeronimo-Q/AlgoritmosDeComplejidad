@@ -2,7 +2,7 @@ import heapq
 
 def dijkstra(grafo, inicio):
     #Inicialización de distancias: infinito para todos los nodos excepto el origen
-    distancias = {nodo: float('infinity') for nodo in grafo}
+    distancias = {nodo: float('infinito') for nodo in grafo}
     distancias[inicio] = 0  # La distancia del nodo inicial a sí mismo es 0
 
     # Cola de prioridad (min-heap) para procesar nodos en orden de distancia ascendente
